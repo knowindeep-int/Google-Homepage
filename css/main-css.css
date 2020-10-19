@@ -52,9 +52,9 @@ li.nav-links a:hover {
 
 /* GOOGLE AREA */
 #center{
-	padding-top: 30vh;
-	padding-bottom: 30vh;
-	text-align: center;
+  padding-top: 25vh;
+  padding-bottom: 30vh;
+  text-align: center;
 }
 
 .google #google_logo {
@@ -75,13 +75,27 @@ li.nav-links a:hover {
   padding: 0 8px;
 }
 
+.form input{
+  border-radius: 100px;
+  border-style: solid;
+  border-color: #d8d8d8;
+}
+
 .buttons {
   text-align: center;
   padding-top: 30px;
 }
 
+.buttons button{
+  padding: 5px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #d8d8d8;
+}
+
 /* FOOTER */
 footer {
+  font-family: arial;
   background: #f2f2f2;
   border-top: solid 2px #e4e4e4;
   position: fixed;
@@ -106,9 +120,12 @@ footer ul {
 footer ul a:hover {
   text-decoration: underline;
 }
-
+.footer-left{
+  margin-left: 30px;
+}
 .footer-right {
   float: right;
+  margin-right: 30px;
 }
 
 /* MEDIA QUERIES*/
